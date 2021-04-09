@@ -1,0 +1,78 @@
+
+.tijiao{
+		font-weight: 600;
+		margin: auto;
+		font-size: 30rpx;
+		width: 20%;
+		height: 30rpx;
+		color: #DD524D;
+}
+.text{
+		width: 95%;
+		height: 90%;
+		margin: 10rpx;
+}
+.ts{
+		font-size: 35rpx;
+		font-weight: 600;
+}
+.tishi{
+		margin: 30rpx;
+		width: 100%;
+		height: 300rpx;
+}
+.sr{width: 100%;
+		height: 300rpx;
+		width: 100%;
+		margin-top: 30rpx;
+		background-color: #FFFFFF;
+		-webkit-box-shadow: 0rpx 5rpx 5rpx #F2F2F2;
+		        box-shadow: 0rpx 5rpx 5rpx #F2F2F2;
+}
+.shuru{
+		margin: auto;
+		width: 90%;
+		height: 300rpx;
+		background-color: #FFFFFF;
+		border: solid #f2f2f2 0.5px;
+}
+.content{
+		width: 100%;
+		height: 1200rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		background-color: #F8F8F8;
+}
+.title{
+		height: 150rpx;
+		width: 100%;
+/* 		margin-top: 50upx; */
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		background-color: #FFFFFF;
+		padding-left: 20rpx;
+}
+.txt{
+		margin: auto;
+		width: 80%;
+		color: #0085FF;
+		font-size: 45rpx;
+		font-weight: 600;
+		letter-spacing:1.5rpx;
+}
+	
+

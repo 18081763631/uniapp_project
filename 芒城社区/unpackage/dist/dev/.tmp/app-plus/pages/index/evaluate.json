@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "问题反馈",
+  "usingComponents": {
+    "choose-image": "/components/xyz-choose-image/xyz-choose-image"
+  }
+}

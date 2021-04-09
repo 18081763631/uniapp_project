@@ -1,0 +1,1 @@
+<view class="content"><uni-nav-bar vue-id="1" left-icon="arrowleft" right-text="菜单" left-text="返回" title="标题" data-event-opts="{{[['^clickLeft',[['back']]]]}}" bind:clickLeft="__e" bind:__l="__l"></uni-nav-bar><uni-evaluate vue-id="2" list-data="{{evaluateData}}" rate="{{rateData}}" bind:__l="__l"></uni-evaluate></view>

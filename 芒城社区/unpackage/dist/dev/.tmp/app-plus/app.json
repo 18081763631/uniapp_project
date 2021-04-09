@@ -1,0 +1,92 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/admin/repair",
+    "pages/taxi/details",
+    "pages/taxi/edit",
+    "pages/user/repair-list",
+    "pages/taxi/taxi",
+    "pages/index/evaluate",
+    "pages/admin/admin",
+    "pages/admin/edit",
+    "pages/admin/phones",
+    "pages/check/details",
+    "pages/check/list",
+    "pages/checkPhone/checkPhone",
+    "pages/user/taxi",
+    "pages/check/details",
+    "pages/user/repair-detail",
+    "pages/kongjian/kongjian",
+    "pages/kongjian/pingjia",
+    "pages/login/forget-password",
+    "pages/login/login",
+    "pages/login/registration",
+    "pages/NEW/NEW",
+    "pages/payment/details",
+    "pages/payment/list",
+    "pages/rent/details",
+    "pages/rent/edit",
+    "pages/rent/list",
+    "pages/repair/details",
+    "pages/repair/edit",
+    "pages/repair/list",
+    "pages/user/house",
+    "pages/user/index",
+    "pages/user/information",
+    "pages/checkPhone/checkPhone",
+    "pages/shop/shop",
+    "pages/admin/evaluate",
+    "pages/admin/evaluateDetails",
+    "pages/about/about",
+    "pages/payment/payment/payment",
+    "pages/notice/notice",
+    "pages/tip/tip"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "社志",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F6F6F6"
+  },
+  "tabBar": {
+    "color": "#585858",
+    "selectedColor": "#304e07",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-current.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/NEW/NEW",
+        "iconPath": "static/tab-cate.png",
+        "selectedIconPath": "static/tab-cate-current.png",
+        "text": "党建"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "static/tab-cart.png",
+        "selectedIconPath": "static/tab-cart-current.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/tab-my.png",
+        "selectedIconPath": "static/tab-my-current.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "社志",
+  "compilerVersion": "2.4.1",
+  "usingComponents": {}
+}

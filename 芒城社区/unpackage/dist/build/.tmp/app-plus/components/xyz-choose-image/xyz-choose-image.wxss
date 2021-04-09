@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'iconfont';
+  /* project id 1035847 */
+  src: url('https://at.alicdn.com/t/font_1035847_ne3azjcnkk.eot');
+  src: url('https://at.alicdn.com/t/font_1035847_ne3azjcnkk.eot?#iefix') format('embedded-opentype'), url('https://at.alicdn.com/t/font_1035847_ne3azjcnkk.woff2') format('woff2'), url('https://at.alicdn.com/t/font_1035847_ne3azjcnkk.woff') format('woff'), url('https://at.alicdn.com/t/font_1035847_ne3azjcnkk.ttf') format('truetype'), url('https://at.alicdn.com/t/font_1035847_ne3azjcnkk.svg#iconfont') format('svg');
+}
+.iconfont.data-v-0feb679a {
+  font-family: 'iconfont' !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 1px;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+  color: #808080;
+}
+.chooseImage > view.data-v-0feb679a {
+  margin: 0 20px 20px 0;
+}
+.chooseImage .icon_close.data-v-0feb679a {
+  width: 20px;
+  height: 20px;
+  right: -10px;
+  top: -10px;
+}
+.chooseImage .icon_close .iconfont.data-v-0feb679a {
+  background: #fff;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 10px;
+}
+

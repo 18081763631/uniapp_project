@@ -1,0 +1,36 @@
+
+.tu1
+	{
+		width: 50rpx;
+		height: 50rpx;
+}
+.tupian
+   {
+	   width: 100rpx;
+	   height: 100rpx;
+}
+.ht
+   {   background: #FFFFFF;
+	   display: -webkit-box;
+	   display: -webkit-flex;
+	   display: -ms-flexbox;
+	   display: flex;
+	   -webkit-box-orient: horizontal;
+	   -webkit-box-direction: normal;
+	   -webkit-flex-direction: row;
+	       -ms-flex-direction: row;
+	           flex-direction: row;
+}
+.vcl
+   {
+	   display: -webkit-box;
+	   display: -webkit-flex;
+	   display: -ms-flexbox;
+	   display: flex;
+	   -webkit-box-orient: vertical;
+	   -webkit-box-direction: normal;
+	   -webkit-flex-direction: column;
+	       -ms-flex-direction: column;
+	           flex-direction: column;
+}
+

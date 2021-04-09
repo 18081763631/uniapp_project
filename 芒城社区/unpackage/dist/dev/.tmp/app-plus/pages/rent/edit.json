@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "租房",
+  "usingComponents": {
+    "choose-image": "/components/xyz-choose-image/xyz-choose-image",
+    "xfl-select": "/components/xfl-select/xfl-select",
+    "jsfun-picker": "/components/jsfun-picker/jsfun-picker",
+    "lotus-address": "/components/Winglau14-lotusAddress/Winglau14-lotusAddress"
+  }
+}

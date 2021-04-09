@@ -1,0 +1,120 @@
+
+.t{
+		width: 100%;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient:horizontal;
+		-webkit-box-direction:normal;
+		-webkit-flex-direction:row ;
+		    -ms-flex-direction:row ;
+		        flex-direction:row ;
+}
+.a{
+		font-size: 20rpx;
+		color: #555555;
+}
+.content{
+		width: 100%;
+		height: 1200rpx;
+		background-color: #f6f6f6;
+}
+.B{
+		margin-top: 20rpx;
+		font-size: 30rpx;
+		color: #555555;
+		letter-spacing: 1rpx;
+}
+.A{
+		width: 80%;
+		font-size: 40rpx;
+		font-weight: 550;
+		letter-spacing: 2rpx;
+}
+.tongzi{
+		margin-top: 20rpx;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20rpx;
+		width: 90%;
+		height: 200rpx;
+		background-color: #FFFFFF;
+		border-radius:30rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-webkit-flex-direction:column ;
+		    -ms-flex-direction:column ;
+		        flex-direction:column ;
+}
+.te
+	{
+		margin-bottom: 10rpx;
+}
+.ra
+	{
+		border-radius: 20rpx;
+}
+.li{
+		background: #FFFFFF;
+		font-size: 30rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+     	margin-left: 10rpx;
+		margin-right: 10rpx;
+		margin-bottom: 20rpx;
+		border-radius: 20rpx;
+		margin-top: 20rpx;
+		width: 220rpx;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		text-align: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+}
+.icon
+	{
+		width: 150rpx;
+		height: 150rpx;
+}
+.huan
+	{   
+		-webkit-box-pack: justify;   
+		-webkit-justify-content: space-between;   
+		    -ms-flex-pack: justify;   
+		        justify-content: space-between;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+}
+.tu
+	{
+		height: 100%;
+		width: 100%;
+		 border-radius: 20rpx;
+}
+.lun{
+  	height: 300rpx;
+  	width: 100%;
+}
+

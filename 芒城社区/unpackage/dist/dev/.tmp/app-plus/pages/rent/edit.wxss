@@ -1,0 +1,424 @@
+
+.bottom {
+}
+.sr {
+	height: 50%;
+	margin-bottom: 20rpx;
+}
+.desc {
+	margin-left: auto;
+	margin-right: auto;
+	width: 96%;
+	height: 600rpx;
+	padding: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin-top: 20rpx;
+	border-radius: 30rpx;
+	-webkit-box-shadow: 0px 5px 6px #f2f2f2;
+	        box-shadow: 0px 5px 6px #f2f2f2;
+	background-color: #ffffff;
+}
+.phone-input-line {
+	margin: auto;
+	width: 80%;
+	height: 5rpx;
+	background-color: #f0f0f0;
+}
+.phone-input-input {
+	text-align: center;
+	width: 400rpx;
+	height: 60rpx;
+	margin: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 35rpx;
+	letter-spacing: 3rpx;
+}
+.phone {
+	width: 100%;
+	height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.phone-input {
+	margin: auto;
+	height: 60rpx;
+	width: 400rpx;
+}
+.phone-txt {
+	letter-spacing: 10rpx;
+	margin: auto;
+	font-size: 35rpx;
+	font-weight: 550;
+}
+.name-input {
+	height: 60rpx;
+	width: 100rpx;
+}
+.name-input {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: auto;
+	height: 60rpx;
+	width: 200rpx;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.name-txt {
+	letter-spacing: 25rpx;
+	margin: auto;
+	font-size: 35rpx;
+	font-weight: 550;
+}
+.name-input-line {
+	width: 100%;
+	height: 5rpx;
+	background-color: #f0f0f0;
+}
+.name-input-input {
+	text-align: center;
+	width: 200rpx;
+	height: 60rpx;
+	margin: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 35rpx;
+	letter-spacing: 3rpx;
+}
+.name {
+	width: 100%;
+	height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.zhuren {
+	margin-left: auto;
+	margin-right: auto;
+	width: 96%;
+	height: 200rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin-top: 20rpx;
+	border-radius: 30rpx;
+	-webkit-box-shadow: 0px 5px 6px #f2f2f2;
+	        box-shadow: 0px 5px 6px #f2f2f2;
+	background-color: #ffffff;
+}
+.ge {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: auto;
+	width: 90%;
+	height: 6rpx;
+	background-color: #f6f6f6;
+	border-radius: 3rpx;
+}
+.jiange {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: auto;
+	width: 100%;
+	height: 8rpx;
+	background-color: #f6f6f6;
+	border-radius: 4rpx;
+}
+.title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: auto;
+	width: 300rpx;
+	height: 50rpx;
+	font-weight: 550;
+	letter-spacing: 2rpx;
+}
+.xiala {
+	float: right;
+}
+.jiantou {
+	float: right;
+}
+.xuan {
+	letter-spacing: 2rpx;
+	font-size: 35rpx;
+	font-weight: 600;
+	width: 700rpx;
+	height: 50rpx;
+}
+.A {
+	width: 100%;
+	height: 1200rpx;
+	background-color: #f9f9f9;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.B {
+	width: 100%;
+	height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding: 20rpx;
+}
+.C {
+	width: 100%;
+	height: 700rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.D {
+	width: 100%;
+	height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding: 20rpx;
+}
+.I {
+	width: 400rpx;
+	height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+
+	padding-left: 30rpx;
+}
+.itxt {
+	width: 200rpx;
+	font-size: 40rpx;
+	font-weight: 800;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: auto;
+}
+.itxt2 {
+	font-size: 20rpx;
+	color: #808080;
+	margin-top: 47rpx;
+}
+.H {
+	margin-top: 20rpx;
+	width: 96%;
+	height: 550rpx;
+
+	display: -webkit-box;
+
+	display: -webkit-flex;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30rpx;
+	-webkit-box-shadow: 0px 5px 6px #f2f2f2;
+	        box-shadow: 0px 5px 6px #f2f2f2;
+	background-color: #ffffff;
+}
+.swiper {
+	width: 100%;
+	height: 320rpx;
+}
+.c1 {
+	width: 150rpx;
+	height: 180rpx;
+	-webkit-box-shadow: 0px 8px 4px #f6f6f6;
+	        box-shadow: 0px 8px 4px #f6f6f6;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+
+	margin-right: 30rpx;
+	border-radius: 15rpx;
+
+	background-color: #ffffff;
+	border: solid #f2f2f2 0.5px;
+}
+.E {
+	width: 680rpx;
+	height: 700rpx;
+
+	display: -webkit-box;
+
+	display: -webkit-flex;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin: auto;
+	border-radius: 30rpx;
+	-webkit-box-shadow: 0px 5px 6px #f2f2f2;
+	        box-shadow: 0px 5px 6px #f2f2f2;
+	background-color: #ffffff;
+}
+.img {
+	width: 70rpx;
+	height: 70rpx;
+
+	margin-top: 30rpx;
+	margin-left: auto;
+	margin-right: auto;
+}
+.txt {
+	font-size: 25rpx;
+	font-weight: 550;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8rpx;
+	color: #535353;
+	letter-spacing: 2rpx;
+}
+.txt2 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: auto;
+	font-size: 38rpx;
+	font-weight: 800;
+}
+.txt3 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: auto;
+	font-size: 20rpx;
+	color: #808080;
+}
+.d1 {
+	width: 100rpx;
+	height: 100rpx;
+
+	margin: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.d2 {
+	width: 15rpx;
+	height: 100rpx;
+
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: -10rpx;
+}
+.d3 {
+	width: 300rpx;
+	height: 100rpx;
+
+	margin: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.d4 {
+	width: 50rpx;
+	height: 50rpx;
+
+	margin: auto;
+}
+.img1 {
+	width: 40rpx;
+	height: 40rpx;
+}
+.img2 {
+	width: 20rpx;
+	height: 100rpx;
+}
+

@@ -1,0 +1,134 @@
+
+.img{
+	width: 70rpx;
+	height: 70rpx;
+
+	border-radius: 35rpx;
+}
+.txt{
+}
+.pinglun{
+	float: right;
+}
+.dianzan{
+	width: 50rpx;
+	height: 50rpx;
+	color: #F43F3B;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	float: right;
+}
+.time{
+	width: 600rpx;
+	font-size: 10rpx;
+	color: #F1F1F1;
+}
+.shuru{
+	padding: 15rpx;
+	width: 80%;
+	height: 50rpx;
+	border-radius: 30rpx;
+	border: solid #f2f2f2 0.5px;
+	background-color: #F2F2F2;
+	font-size: 20rpx;
+}
+.mg{
+	width: 100%;
+	height: 50rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.ping{
+	width: 100%;
+	height: 80rpx;
+}
+.content{
+	padding: 10rpx;
+	height: 150rpx;
+	
+	display: -webkit-box;
+	
+	display: -webkit-flex;
+	
+	display: -ms-flexbox;
+	
+	display: flex;
+}
+.miaosu{
+	font-size: 20rpx;
+	color: #E0E0E0;
+}
+.name{
+	font-size: 30rpx;
+	font-weight: 600;
+}
+.textcontent{
+	margin-left: 20rpx;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.tou{
+	width: 100%;
+	height: 80rpx;
+
+	display: -webkit-box;
+
+	display: -webkit-flex;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.touxiang{
+	width: 70rpx;
+	height: 70rpx;
+}
+.quyu{
+	width: 100%;
+	height: 100%;
+	background-color: #F6F6F6;
+}
+.card{
+	margin-top: 20rpx;
+	width: 96%;
+	height: 350rpx;
+	padding: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30rpx;
+	-webkit-box-shadow: 0px 5px 6px #f2f2f2;
+	        box-shadow: 0px 5px 6px #f2f2f2;
+	background-color: #FFFFFF;
+}
+

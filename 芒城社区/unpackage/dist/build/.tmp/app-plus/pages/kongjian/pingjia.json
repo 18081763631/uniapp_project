@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-evaluate": "/components/xiujun-evaluate/uni-evaluate",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
+  }
+}

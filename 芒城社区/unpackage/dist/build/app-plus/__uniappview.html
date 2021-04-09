@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"shezi","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"navigationBarTitleText":"","enablePullDownRefresh":true,"navigationStyle":"custom","usingComponents":{"uni-popup":"/components/uni-popup/uni-popup"}}},"pages/admin/repair.html":{"window":{"navigationBarTitleText":"社志","usingComponents":{}}},"pages/taxi/details.html":{"window":{"navigationBarTitleText":"社志","usingComponents":{}}},"pages/taxi/edit.html":{"window":{"navigationBarTitleText":"社志","usingComponents":{"jsfun-picker":"/components/jsfun-picker/jsfun-picker","dy-datetime-picker":"/components/lanxiujuan-dyDateTime/lanxiujuan-dyDateTime"}}},"pages/user/repair-list.html":{"window":{"navigationBarTitleText":"我的报修","usingComponents":{}}},"pages/taxi/taxi.html":{"window":{"navigationBarTitleText":"社志","usingComponents":{}}},"pages/index/evaluate.html":{"window":{"navigationBarTitleText":"问题反馈","usingComponents":{"choose-image":"/components/xyz-choose-image/xyz-choose-image"}}},"pages/admin/admin.html":{"window":{"navigationBarTitleText":"管理","usingComponents":{}}},"pages/admin/edit.html":{"window":{"navigationBarTitleText":"管理","usingComponents":{}}},"pages/admin/phones.html":{"window":{"navigationBarTitleText":"工作通讯录","usingComponents":{}}},"pages/check/details.html":{"window":{"navigationBarTitleText":"验证手机号","usingComponents":{}}},"pages/check/list.html":{"window":{"navigationBarTitleText":"租售审核","usingComponents":{}}},"pages/checkPhone/checkPhone.html":{"window":{"navigationBarTitleText":"验证手机号","usingComponents":{}}},"pages/user/taxi.html":{"window":{"navigationBarTitleText":"验证手机号","usingComponents":{}}},"pages/user/repair-detail.html":{"window":{"navigationBarTitleText":"报修详情","usingComponents":{}}},"pages/kongjian/kongjian.html":{"window":{"navigationBarTitleText":"我的房屋","usingComponents":{"uni-fab":"/components/uni-fab/uni-fab","uni-icons":"/components/yangxiaochuang-icons/yangxiaochuang-icons"}}},"pages/kongjian/pingjia.html":{"window":{"usingComponents":{"uni-evaluate":"/components/xiujun-evaluate/uni-evaluate","uni-nav-bar":"/components/uni-nav-bar/uni-nav-bar"}}},"pages/login/forget-password.html":{"window":{"navigationBarTitleText":"找回密码","usingComponents":{}}},"pages/login/login.html":{"window":{"navigationBarTitleText":"登录","usingComponents":{"tki-tree":"/components/tki-tree/tki-tree"}}},"pages/login/registration.html":{"window":{"navigationBarTitleText":"注册","usingComponents":{}}},"pages/NEW/NEW.html":{"window":{"navigationBarTitleText":"党建","usingComponents":{}}},"pages/payment/details.html":{"window":{"navigationBarTitleText":"房屋账单","usingComponents":{}}},"pages/payment/list.html":{"window":{"navigationBarTitleText":"房屋账单","usingComponents":{}}},"pages/rent/details.html":{"window":{"navigationBarTitleText":"租房","usingComponents":{}}},"pages/rent/edit.html":{"window":{"navigationBarTitleText":"租房","usingComponents":{"choose-image":"/components/xyz-choose-image/xyz-choose-image","xfl-select":"/components/xfl-select/xfl-select","jsfun-picker":"/components/jsfun-picker/jsfun-picker","lotus-address":"/components/Winglau14-lotusAddress/Winglau14-lotusAddress"}}},"pages/rent/list.html":{"window":{"navigationBarTitleText":"租房","usingComponents":{"uni-fab":"/components/uni-fab/uni-fab","sl-filter":"/components/sl-filter/sl-filter"}}},"pages/repair/details.html":{"window":{"navigationBarTitleText":"快速报修","usingComponents":{}}},"pages/repair/edit.html":{"window":{"navigationBarTitleText":"快速报修","usingComponents":{"uni-collapse":"/components/uni-collapse/uni-collapse","uni-collapse-item":"/components/uni-collapse-item/uni-collapse-item","mx-date-picker":"/components/mx-datepicker/mx-datepicker","dy-datetime-picker":"/components/lanxiujuan-dyDateTime/lanxiujuan-dyDateTime","choose-image":"/components/xyz-choose-image/xyz-choose-image"}}},"pages/repair/list.html":{"window":{"navigationBarTitleText":"快速报修","usingComponents":{}}},"pages/user/house.html":{"window":{"navigationBarTitleText":"我的房屋","usingComponents":{}}},"pages/user/index.html":{"window":{"navigationBarTitleText":"我的","usingComponents":{}}},"pages/user/information.html":{"window":{"navigationBarTitleText":"设置","usingComponents":{}}},"pages/shop/shop.html":{"window":{"navigationBarTitleText":"商城","usingComponents":{}}},"pages/admin/evaluate.html":{"window":{"usingComponents":{}}},"pages/admin/evaluateDetails.html":{"window":{"usingComponents":{}}},"pages/about/about.html":{"window":{"usingComponents":{}}},"pages/payment/payment/payment.html":{"window":{"usingComponents":{}}},"pages/notice/notice.html":{"window":{"navigationBarTitleText":"公告","usingComponents":{}}},"pages/tip/tip.html":{"window":{"usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"社志","navigationBarBackgroundColor":"#FFFFFF","backgroundColor":"#F6F6F6"}},"tabBar":{"color":"#585858","selectedColor":"#304e07","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","iconPath":"static/tab-home.png","selectedIconPath":"static/tab-home-current.png","text":"首页"},{"pagePath":"pages/NEW/NEW.html","iconPath":"static/tab-cate.png","selectedIconPath":"static/tab-cate-current.png","text":"党建"},{"pagePath":"pages/shop/shop.html","iconPath":"static/tab-cart.png","selectedIconPath":"static/tab-cart-current.png","text":"商城"},{"pagePath":"pages/user/index.html","iconPath":"static/tab-my.png","selectedIconPath":"static/tab-my-current.png","text":"我的"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/admin/repair","pages/taxi/details","pages/taxi/edit","pages/user/repair-list","pages/taxi/taxi","pages/index/evaluate","pages/admin/admin","pages/admin/edit","pages/admin/phones","pages/check/details","pages/check/list","pages/checkPhone/checkPhone","pages/user/taxi","pages/check/details","pages/user/repair-detail","pages/kongjian/kongjian","pages/kongjian/pingjia","pages/login/forget-password","pages/login/login","pages/login/registration","pages/NEW/NEW","pages/payment/details","pages/payment/list","pages/rent/details","pages/rent/edit","pages/rent/list","pages/repair/details","pages/repair/edit","pages/repair/list","pages/user/house","pages/user/index","pages/user/information","pages/checkPhone/checkPhone","pages/shop/shop","pages/admin/evaluate","pages/admin/evaluateDetails","pages/about/about","pages/payment/payment/payment","pages/notice/notice","pages/tip/tip"],"nvueCompiler":"uni-app","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.4.1","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

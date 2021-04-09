@@ -1,0 +1,1 @@
+<view style="height:500rpx;width:100%;"><web-view webview-styles="{{webviewStyles}}" src="http://106.13.239.202:8080/docs/detail.html#30"></web-view></view>

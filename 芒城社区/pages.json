@@ -1,0 +1,298 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"navigationStyle":"custom"
+
+			}
+		},
+		{
+			"path": "pages/admin/repair",
+			"style": {
+				"navigationBarTitleText": "社志"
+		
+		
+			}
+		},
+		{
+			"path": "pages/taxi/details",
+			"style": {
+				"navigationBarTitleText": "社志"
+		
+		
+			}
+		},
+		
+		{
+			"path": "pages/taxi/edit",
+			"style": {
+				"navigationBarTitleText": "社志"
+		
+		
+			}
+		}
+		,
+		{
+			"path": "pages/user/repair-list",
+			"style": {
+				"navigationBarTitleText": "我的报修"
+		
+		
+			}
+		}
+		,
+		{
+			"path": "pages/taxi/taxi",
+			"style": {
+				"navigationBarTitleText": "社志"
+		
+		
+			}
+		},
+
+		{
+			"path": "pages/index/evaluate",
+			"style": {
+				"navigationBarTitleText": "问题反馈"
+
+
+			}
+		}, 
+		{
+			"path": "pages/admin/admin",
+			"style": {
+
+				"navigationBarTitleText": "管理"
+			}
+		},
+		{
+			"path": "pages/admin/edit",
+			"style": {
+		
+				"navigationBarTitleText": "管理"
+			}
+		},
+		{
+			"path": "pages/admin/phones",
+			"style": {
+				"navigationBarTitleText": "工作通讯录"
+			}
+		}, {
+			"path": "pages/check/details",
+			"style": {
+				"navigationBarTitleText": "租售"
+			}
+		}, {
+			"path": "pages/check/list",
+			"style": {
+				"navigationBarTitleText": "租售审核"
+			}
+		},
+
+		{
+			"path": "pages/checkPhone/checkPhone",
+			"style": {
+				"navigationBarTitleText": "验证手机号"
+			}
+		},
+		{
+			"path": "pages/user/taxi",
+			"style": {
+				"navigationBarTitleText": "验证手机号"
+			}
+		}
+		,
+		{
+			"path": "pages/check/details",
+			"style": {
+				"navigationBarTitleText": "验证手机号"
+			}
+		}
+		,
+		{
+			"path": "pages/user/repair-detail",
+			"style": {
+				"navigationBarTitleText": "报修详情"
+			}
+		}
+
+		, {
+			"path": "pages/kongjian/kongjian",
+			"style": {
+				"navigationBarTitleText": "我的房屋"
+
+			}
+		}, {
+			"path": "pages/kongjian/pingjia",
+			"style": {}
+		}, {
+			"path": "pages/login/forget-password",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+				
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+				
+			}
+		}, {
+			"path": "pages/login/registration",
+			"style": {
+				"navigationBarTitleText": "注册"
+				
+			}
+		}, {
+			"path": "pages/NEW/NEW",
+			"style": {
+				"navigationBarTitleText": "党建"
+				
+			}
+		}, {
+			"path": "pages/payment/details",
+			"style": {
+				"navigationBarTitleText": "房屋账单"
+				
+			}
+		}, {
+			"path": "pages/payment/list",
+			"style": {
+				"navigationBarTitleText": "房屋账单"
+				
+			}
+		}
+
+		, {
+			"path": "pages/rent/details",
+			"style": {
+				"navigationBarTitleText": "租房"
+			}
+		}, {
+			"path": "pages/rent/edit",
+			"style": {
+				"navigationBarTitleText": "租房"
+			}
+		}, {
+			"path": "pages/rent/list",
+			"style": {
+				"navigationBarTitleText": "租房"
+			}
+		}, {
+			"path": "pages/repair/details",
+			"style": {
+				"navigationBarTitleText": "快速报修"
+			}
+		}, {
+			"path": "pages/repair/edit",
+			"style": {
+				"navigationBarTitleText": "快速报修"
+			}
+		}, {
+			"path": "pages/repair/list",
+			"style": {
+				"navigationBarTitleText": "快速报修"
+			}
+		},
+		{
+			"path": "pages/user/house",
+			"style": {
+				"navigationBarTitleText": "我的房屋"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	    ,{
+            "path" : "pages/user/information",
+            "style" : {
+				"navigationBarTitleText": "设置"
+			}
+        }
+        ,{
+            "path" : "pages/checkPhone/checkPhone",
+            "style" : {
+				"navigationBarTitleText": "验证手机号"
+			}
+        }
+        
+        ,{
+            "path" : "pages/shop/shop",
+            "style" : {
+				"navigationBarTitleText": "商城"
+			}
+        },
+		{
+		    "path" : "pages/admin/evaluate",
+		    "style" : {}
+		},
+		
+		{
+		    "path" : "pages/admin/evaluateDetails",
+		    "style" : {}
+		}
+		
+        ,{
+            "path" : "pages/about/about",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/payment/payment/payment",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/notice/notice",
+            "style" : {
+				"navigationBarTitleText": "公告"
+			}
+        }
+        ,{
+            "path" : "pages/tip/tip",
+            "style" : {}
+        }
+    ],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "社志",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F6F6F6"
+	},
+	"tabBar": {
+		"color": "#585858",
+		"selectedColor": "#304e07",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/NEW/NEW",
+				"iconPath": "static/tab-cate.png",
+				"selectedIconPath": "static/tab-cate-current.png",
+				"text": "党建"
+			},
+			{
+				"pagePath": "pages/shop/shop",
+				"iconPath": "static/tab-cart.png",
+				"selectedIconPath": "static/tab-cart-current.png",
+				"text": "商城"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/tab-my.png",
+				"selectedIconPath": "static/tab-my-current.png",
+				"text": "我的"
+			}
+		]
+	}
+}

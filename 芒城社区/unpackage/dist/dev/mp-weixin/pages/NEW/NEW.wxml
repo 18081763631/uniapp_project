@@ -1,0 +1,1 @@
+<view style="height:500rpx;width:100%;"><web-view webview-styles="{{webviewStyles}}" src="http://cpc.people.com.cn/n1/2019/1116/c64094-31458737.html"></web-view></view>

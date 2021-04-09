@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "快速报修",
+  "usingComponents": {
+    "uni-collapse": "/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-collapse-item/uni-collapse-item",
+    "mx-date-picker": "/components/mx-datepicker/mx-datepicker",
+    "dy-datetime-picker": "/components/lanxiujuan-dyDateTime/lanxiujuan-dyDateTime",
+    "choose-image": "/components/xyz-choose-image/xyz-choose-image"
+  }
+}

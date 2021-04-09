@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "社志",
+  "usingComponents": {
+    "jsfun-picker": "/components/jsfun-picker/jsfun-picker",
+    "dy-datetime-picker": "/components/lanxiujuan-dyDateTime/lanxiujuan-dyDateTime"
+  }
+}
